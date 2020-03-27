@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+*{
+margin: 0;
+padding :0;
+
+}
+
+html,body{
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* jhdgk  match-form */
+
+.clearfix{zoom:1}
+.clearfix:after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* login header */
+#headerfirst{
+
+}
+/* login header */
+
+.navbar{
+ display: none;
+ background-color: red;
+}
+
+#header{
+width: 100%;
+margin: 2rem;
+}
+
+
+#logout{
+    float: left;
+    display: inline;
+    width: 10vw;
+    height: 2rem;
+    margin-left: 2rem;
+ 
+}
+
+#logoutbtn{
+    background-color: red;
+    width: 5rem;
+    border-radius: 50px;
+    float: right;
+}
+
+.logo{
+    margin: auto;
+    border: none;
+    font-size: 1.5rem;
+    display: inline;
+    font-style: italic;
+    font-weight: bold;
+     color:rgb(19, 21, 22);
+}
+
+
+
+#container{
+    width: 20vw;
+    height : 94vh;
+    margin: auto;
+    margin-top: 2%;
+    
+}
+.middle{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.login_box{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width : 20vw;
+    height : 30vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.822);
+    text-align: center;
+    padding-top: 5%;
+    display: block;
+}
+#signup-btn,#login-btn{
+    display: inline;
+    margin: auto;
+    height: 2.5rem;
+    margin-top: 3%;
+    width: 42%;
+    padding: 3% ;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(93, 6, 175, 0.486);
+}
+
+#signup-btn:hover,#login-btn:hover{
+    background-color: rgba(13, 117, 117, 0.479);
+}
+
+#signup-btn:focus,#login-btn:focus{
+ border : none;
+}
+
+#matchwrap{
+    margin: 2rem;
+    
+  }
+
+  .innerwrap{
+      background-color: rgb(107, 71, 71);
+      height: 7rem;
+      width: 100%;
+      vertical-align: middle;
+  }
+
+#match-btn{
+    display:inline;
+    margin: 2rem;
+}
+#see-match-btn{
+    display: inline;
+}
+
+
+
+
+#inner_singup{
+    width: 100%;
+    height:85%;
+   display: block;
+}
+
+.center{
+    position : relative;
+    top: 50%;
+    left: 15%;
+  
+}
+
+#form_submit{
+    position : relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+    margin-left: auto;
+    margin-top: 10px;
+    width: 95%;
+    height: 2.5rem;
+}
+
+
+#user_name,#password{
+    position : relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: .8rem;
+    display: block;
+    border: 1px solid rgb(73, 69, 69);
+    padding : 3%;
+    width: 85%;
+    border-radius: 5px;
+}
+
+.vertical_line{
+  position : relative;
+    margin: auto;
+    margin-top: 15px;
+    width: 18vw;
+    height: 3px;
+    background-color: rgba(174, 175, 175, 0.883);
+}
+
+.signup_box{
+    position: relative;
+        width : 18vw;
+        height: 65vh;
+        margin: auto;
+        margin-top: 10px;
+        border: 1px solid black;
+        border-radius: 3px;
+        background-color: rgba(218, 20, 20, 0.411);
+    }
+
+  #first_name,#second_name,#email,#password1,#password2,.fsubmit{
+      display: block;
+      margin: auto;
+      margin-top: 1rem; 
+      height: 2rem; 
+      width: 95%;
+      border-radius: 3px;
+      border: 1px solid rgb(199, 199, 199);
+      box-shadow: 5px,10px azure;
+
+  }  
+
+ 
+
+  /* home.php css */
+
+  .container-home{
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .left-div-main{
+     float: left;
+     width: 70vw;
+     
+  }
+
+  .right-chat-people{
+    float: left;
+    width: 30vw;
+    border-radius: 5px;
+ 
+ }
+
+
+ label,input{
+     display: block;
+     width: 30vw;
+     
+ }
+
+
+ #c-match-form{
+     border: 2px solid rgb(216, 202, 202);
+     width: 90%;
+    padding: 2rem;
+     margin-left: .4rem;
+     box-shadow: 5px 5px 5px rgb(180, 177, 177);
+ }
+
+
+ .submit-match-form{
+     margin-top: 2rem;
+     margin-bottom: .6rem;
+ }
+ 
+.person{
+   
+     display: block;
+     width: 70%;
+     height: 1.2rem;
+     margin: .6rem;
+     padding-left: .5rem;
+     background-color: rgba(221, 198, 198, 0.774);
+     border-radius: 5px;
+    padding: .2rem;
+    ;
+}
+ 
+
+ iframe{
+     width: 100%;
+     height: 100%;
+ }
+
+
+ /* js html */
+
+ .maindiv{
+     width: 70vw;
+     position :relative;
+     left: 1.8rem;
+     background-color: red;
+ }
+#yourname,#othername-span{
+font-size: 150%;
+ position: relative;
+ top: 50%;
+ left: 20%;
+ transform: translate(-50%,-50%);
+ color: white;
+
+}
+
+#otheremail-span,#othergender-span{
+    font-size: 90%;
+ position: relative;
+  left: 20%;
+ color: white;
+}
+ 
+ .yourprofile,.percent,.otherprofile{
+    width: 27%;
+    height: 40vh;
+    margin: 1.2rem;
+    float: left;
+    border: 1px solid black;
+    border: 5px solid rgba(126, 124, 126, 0.788);
+    border-radius: 10px;
+    background-color: rgb(19, 5, 65);
+    
+ }
+
+.nextbtn,.prevbtn{
+display: inline;
+margin-top: 1rem;
+margin-left:.8rem;
+text-align: center;
+border: none;
+border-radius: 5px;
+font-size: .8rem;
+color:white;
+background-color: rgb(79, 47, 71);
+ }
+
+ #submitformbtn{
+     margin-top: 3rem;
+ }
+
+ #chatdiv{
+     height: 100%;
+     width: 100%;
+     background-color: white;
+
+ }
+
+ #male,#female,#other,#lmale,#lfemale,#lother{
+   display: inline;
+   width: 5%;
+  margin: .6rem;
+ }
+
+ #fotter{
+     width: 100vw;
+     height: 20vh;
+ }
+
+/* jdhf  container */
+@media (max-width: 910px){
+
+    .rdiv{
+        display: none;
+    }
+
+    .ldiv{
+        width: 100vw;
+    }
+
+    .maindiv{
+        width: 100%;
+    }
+}
+
+@media (max-width: 415px){
+
+    .rdiv{
+        margin: 0 2px;
+        position: fixed;
+        display: block;
+        width: 100%;
+        height: 90vh;
+        z-index: 8;
+    }
+
+#chatdiv{
+    padding: 2rem 0px;
+    background-color: red;
+}
+
+    .visible{
+        display: none;
+    }
+
+    .ldiv{
+        background-color: #950740;
+    }
+
+    
+    .yourprofile,.otherprofile{
+        width: 80%;
+        height: 35vh;
+        margin-left: auto;
+        margin-bottom: 2rem;
+        border-radius: 4px;
+        background-color: rgba(7, 2, 39, 0.822);
+        border: none;
+        padding: 0px;
+        
+     }
+     .percent{
+         background-color: #8d878a;
+         border: none;
+         width: 80vw;
+         height: 10rem;
+         margin-left: 0;
+         text-align: justify;
+     }
+    .yourprofile div span,.percent span,.otherprofile div span{
+
+        margin:0px auto;
+        
+
+     }
+
+     #next,#prev{
+         width: 5rem;
+         height: 2rem;
+         margin: .3rem;
+
+     }
+
+     #match-btn{
+         position: relative;
+         left: 0;
+         margin-left: 0px;
+      margin: 1.3rem;
+      width: 6.5rem;
+    }
+    #see-match-btn{
+        position: relative;
+        left: 0;
+        margin-left: 0px;
+        margin:1.3rem;
+        float: right;
+    }
+
+    #wrap{
+      
+        padding: 0;
+    }
+    .innerwrap{
+      height: 5.5rem;
+    }
+    
+    #logoutbtn{
+        margin-top: 0;
+        background-color: #950740;
+    }
+
+    .container-box{
+      padding: 2rem;
+        width: 100%;
+    }
+
+
+    .login_box{
+       
+        width : 95%;
+        height : 38vh;
+        margin-top: .5rem;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: rgba(0, 255, 255, 0.356);
+
+    }
+
+    .logo{
+       margin: 5rem;
+     }
+
+     #c-match-form{
+         width: 100%;
+         margin-right: .8rem;
+         border: none;
+         background-color: #5CDB95;
+         
+        }
+        #c-match-form input[type='text']:focus{
+            background-color: white;
+          border: none;
+          border-bottom: 1px solid red;
+        }
+        #c-match-form input[type='text'],#c-match-form label{
+            background-color: #5CDB95;
+         border: none;
+         width: 100%;
+         height: 2rem;
+         margin: 0;
+      
+
+     }
+
+     .login_box{
+         background-color: rgba(0, 0, 0, 0.829);
+         padding-bottom: 2rem;
+         height: 30%;
+     }
+     .vertical_line{
+         width: 80%;
+     }
+
+     /* login header */
+#headerfirst{
+    width : 95%;
+    height : 10vh;
+    margin: .5rem;
+    background-color: #8d878a;
+    padding: .5rem;
+    font-style: italic;
+    border-radius: 3px;
+}
+
+#form_submit{
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+
+}
+/* login header */
+}
